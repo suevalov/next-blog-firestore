@@ -7,6 +7,8 @@
   <img src='https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/logo.png' width='300' alt='Next Blog Firestore'>
 </p>
 
+[Example](https://next-blog-firestore-lvlckruybj.now.sh/)
+
 This blog uses Next.js for SSR & Firebase Firestore API for storing and fetching data. Create and edit your content in simple custom content management
 system built with React, Mobx State Tree and Styled Components.
 
