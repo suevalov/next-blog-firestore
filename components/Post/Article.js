@@ -15,6 +15,11 @@ export default styled.article`
   strong {
     font-weight: 700;
   }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
 
   ol,
   ul {

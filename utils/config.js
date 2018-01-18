@@ -23,17 +23,10 @@ module.exports = {
       route: "index"
     },
     {
-      text: "About Travel",
+      text: "Tutorials",
       route: "category",
       params: {
-        category: "travel"
-      }
-    },
-    {
-      text: "About Career",
-      route: "category",
-      params: {
-        category: "career"
+        category: "tutorials"
       }
     }
   ],

@@ -125,9 +125,9 @@ Blog is up and running on [http://localhost:3000](http://localhost:3000).
 
 Wait.. But what's about CMS part?
 
-* Go to [http://localhost:3000/admin] and click on **"Click to start writing"**.
+* Go to [http://localhost:3000/admin](http://localhost:3000/admin) and click on **"Click to start writing"**.
 * Sign-in with your Google Account in popup window.
-* Go to [Firebase Console] and add author rights to account you just signed in with.
+* Go to [Firebase Console](https://console.firebase.google.com) and add author rights to account you just signed in with.
   * Copy **User UID** in **Authentication** section.
   * Create `authors` collection in **Database**
   * Create a record in `authors` collection, where `documentId` is UID of the user and `name` is `id` of user in `config.js` file.
@@ -138,7 +138,7 @@ Wait.. But what's about CMS part?
 
 #### Step 11. Ready to go!
 
-* Go to [http://localhost:3000/admin]
+* Go to [http://localhost:3000/admin](http://localhost:3000/admin)
 * Create new post or edit existing and publish changes.
 
 ## License
