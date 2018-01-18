@@ -29,9 +29,9 @@
   },
   "now": {
     "env": {
-      "F_PROJECT_ID": "@firebase-project-id",
-      "F_AUTH_DOMAIN": "@firebase-auth-domain",
-      "F_API_KEY": "@firebase-api-key"
+      "F_PROJECT_ID": "@next-blog-firestore-project-id",
+      "F_AUTH_DOMAIN": "@next-blog-firestore-auth-domain",
+      "F_API_KEY": "@next-blog-firestore-api-key"
     }
   },
   "devDependencies": {
