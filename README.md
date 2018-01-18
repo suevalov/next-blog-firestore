@@ -37,34 +37,34 @@ Clone this repo and use it as starting point to create your own fancy blog.
 
 ## Getting started
 
-**Step 1** Create [Firebase account](https://console.firebase.google.com)
+#### Step 1. Create [Firebase account](https://console.firebase.google.com)
 
 <p align='center'>  
   <img src='https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/create-firebase-project.png' width='300' alt='Create Firebase account'>
 </p>
 
-**Step 2** Setup Authentication 
+#### Step 2. Setup Authentication Method
  
-  * Click "Set up sign-in method" on Authentication section.
-  * Enable just Google authentication provider.
-  * Add your domain (if you have one) to "Authorized domains".
+  * Click **Set up sign-in method** on Authentication section.
+  * Enable **just** Google authentication provider.
+  * Add your domain (if you have one) to **Authorized domains**.  
  
-**Step 3** Create Firestore database
+#### Step 3. Create Firestore database
 
-* Go to "Database" section and create Firestore instance. 
+* Go to **Database** section and create Firestore instance. 
 
 *Firestore is still in beta, but it doesn't make it less awesome.*
  
-**Step 4** Database configuration.
+#### Step 4. Database configuration.
  
-* Go to "Rules" section in your database and paste configuration from `.firebase-rules` in project root.
+* Go to **Rules** section in your database and paste configuration from [.firebase-rules](./.firebase-rules) in project root.
 * Publish new rules.
  
-**Step 5** Set up Firebase secret keys for our app.
+#### Step 5. Set up Firebase secret keys for our app.
 
-* Create `.env` at the root of the project. Do not commit this file. It is personal data that should not be available for everyone.
-* Go to "Project settings" in Firebase console (click on the gear icon next to "Project Overview"). 
-* Copy data from this page to `.env` in the following format:
+* Create **`.env`** at the root of the project. Do not commit this file. It is personal data that should not be available for everyone.
+* Go to **Project settings** in Firebase console (click on the gear icon next to **Project Overview**). 
+* Copy data from this page to **`.env`** in the following format:
  
  ```bash
  F_PROJECT_ID=<your Project ID>
@@ -72,29 +72,30 @@ Clone this repo and use it as starting point to create your own fancy blog.
  F_API_KEY=<your Web API Key>
  ```
 
-**Step 6** Set up Firebase Admin SDK key for importing/exporting data from database
+#### Step 6. Set up Firebase Admin SDK key for importing/exporting data from database.
 
-In order to be able to initialize database with initial seed we need to generate
-private Firebase Admin service key.
+In order to be able to initialize database with initial seed we need to generate private Firebase Admin service key.
 
-Go to "Project Settings" => "Service Accounts" and click "Generate new private key" button.
-Save downloaded file as `firebase-service-key.json` at project root. Do not commit this file. It's added to `.gitignore` by default.
+* Go to **Project Settings** => **Service Accounts** and click **Generate new private key** button.
+* Save downloaded file as **`firebase-service-key.json`** at project root. 
+** Do not commit this file. It's added to `.gitignore` by default.
 
-**Step 7** Initialize database with initial data
+#### Step 7. Initialize database with initial data.
 
 We almost finished. Let's initialize our database with initial data.
 
 ```bash
+yarn
 yarn run seed
 ```
 
-**Step 8** Setup database indexes.
+#### Step 8. Setup database indexes.
 
-**Step 9** Run blog locally
+#### Step 9. Run blog locally.
 
-**Step 10** Sign in to admin part
+#### Step 10. Sign in to admin part.
 
-**Step 11** Ready to go! Create new post or edit existing and publish changes.
+#### Step 11. Ready to go! Create new post or edit existing and publish changes.
 
 
 ## License
