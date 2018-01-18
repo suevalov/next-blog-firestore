@@ -116,7 +116,7 @@ We need manually setup indexes in our Firestore database to be able to make REST
 We're ready to launch our blog locally.
 
 ```bash
-yarn start
+yarn dev
 ```
 
 Blog is up and running on [http://localhost:3000](http://localhost:3000).

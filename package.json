@@ -4,8 +4,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "start:prod": "NODE_ENV=production node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "dev": "node server.js",
     "build": "next build",
     "precommit": "./node_modules/.bin/lint-staged",
     "seed": "node scripts/restore -a firebase-service-key.json -i ./scripts/seed.json",
