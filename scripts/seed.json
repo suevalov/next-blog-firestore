@@ -1,48 +1,161 @@
 {
   "posts": [
     {
-      "draft": {
-        "changed": 1516275847536,
-        "text": "\n```marksy\n<Image \n  previewSrc=\"http://res.cloudinary.com/human-to-human/image/upload/c_scale,q_auto:eco,w_80/v1501702335/technical_writer_cover.jpg\"\n  src=\"https://res.cloudinary.com/human-to-human/image/upload/c_scale,f_auto,q_auto,w_752/v1501702335/technical_writer_cover.jpg\" \n  width={752} \n  height={341}\n  lazy={false}\n/>\n```\n\n***\n\nMost of the critical decisions I've made in my life are not obvious for some people. I know not everyone in my hometown understands why I moved to Poland. The things are getting even worse when it comes to my new profession. Why would a graduate of Philological faculty become a technical writer? The reason for this confusion is a lack of information + stereotypes that people might have. \n\n```marksy\n<Blockquote>\nIf you are humanist, you probably do not consider IT companies as a future place of work.</Blockquote>\n```\n\nIf you are a humanist, you probably do not consider IT companies as a future place of work. I did not consider as well until the moment I moved to an only-IT-companies city. I went to the interview just to see the office of a well-known company, not to get the job - that is how little I consider my chances are. But later I found out that among 10 the writers in my team 7 are linguists/philologist/ex-teachers of English as the main requirement is English proficiency, not deep technical knowledge.\n \nWhat do the tech writers do? The main goal is to gather the information from the technicians, translate it into a human language and write it according to a style guide. Here some complications appear: how can I write about something I don't understand? - the humanist might ask. The answer is that every person can understand everything if tries hard, at least to certain extent… Writers do not need to develop a product, but just understand how it works. \n \nSome other things I can do during the day: review the other documents, send emails asking to send info/review/approvals documents, test the documents, restructure existing content, create presentations about my team/our improvements, attend a different kind of meetings. \n \nI enjoy creating presentations, I like to structure all the mess I get from the developers and make the text easy to understand. I also like to review the other texts. \n\n***\n \nIf the profession becomes more well-known I am sure that many humanists will choose it. What are the advantages and disadvantages of the job?\n \nTo work in IT is an advantage itself. Here are some things I enjoy most of all:\n \n* One of the best things is communication between the team members and the managers. I have one-on-one meeting with my manager every month where I can discuss my worries, problems, ideas, career goals. It is like a free psychiatrist session but with good consequences for your career. Also, managers never control the time you spend at work and do not really care how you spend your day as long as your tasks are done.\n\n* Tech writer is a job with minimum stress. Deadlines are blurring, no one pushes you and almost never make you work after 6 or on the weekends. If you've made a mistake, managers will gently explain to you how to fix it. \n\n* Every day you learn something new and there's a great field to learn even more if you are ready. If one year ago someone would tell me I will be programming, I would laugh in their face. As today I do not think it is as hard as I imaged, it seems logical career development for me.\n\n* The work brings satisfaction, especially if you work hard. You see the results, you always get feedback, someone cares about your career which in the end of the day makes you feel happy.\n\n* People in IT are very normal. It's also one of the drawbacks but the good side is that they are calm, nice and friendly.\n\n* You can work remotely which gives an opportunity to travel.\n\n* For girls, it's fun to be surrounded by the boys. For me, it means no judgment of my clothes and make up extra 8 hours a day.\n\n* There is no struggle with: does anyone need it? Do I do something worth doing? I mean, there can be but less than in many other jobs. It is really important for me to know that people need my writing. For the sake of creative struggle, I have this blog :D\n\n* And the last but not least is the salary. Among all the writers (except the one who wrote best sellers) tech writers get the best salary and perks. This point is for all the people who told me many times that philologists cannot make money (and can only work in McDonald's).\n \nI did not find many disadvantages but I am not the person who usually notices a lot of them. Some obvious:\n\n* Lack of communication. For me, it is a great drawback as communication is one of my strongest skill that I want to develop. I am the only tech writer in the office and I know it is a common case for many companies. All the other tech writers in my team work in India and sometimes I feel lonely and isolated. \nAlso, this job will not suit the person who cannot work by her or himself for many hours. If one day I decide to switch career, lack of communication will be the first reason.\n\n* The product can be so complicated that no one would be able to explain you the whole thing. I am constantly working on increasing my knowledge but feel like I will never be able to understand it one hundred percent. \n    \nTo sum up, the positive sides overcome negative ones. Half of the year had passed since I've started and this story is to be continued...\n",
+      "published": {
         "meta": {
-          "thumbText": "If you are a humanist, you probably do not consider IT companies as a future place of work. I did not consider as well until the moment I moved to an only-IT-companies city. Now I am sure that IT companies is one of the best places for humanist for many reasons.",
-          "language": "en",
-          "hasTranslation": false,
+          "category": "tutorials",
+          "tags": [],
+          "thumbText": "Настройка Firebase и первоначальные шаги для полноценной работы с блогом.",
+          "language": "ru",
+          "hasTranslation": true,
           "featured": false,
           "author": "john",
-          "url": "/posts/2018/how-to-write-first-post",
+          "url": "/posts/ru/2018/getting-started",
+          "ogImage": "https://res.cloudinary.com/human-to-human/image/upload/c_scale,f_auto,q_auto,w_370/v1501702335/technical_writer_thumb.jpg",
+          "thumbImage": "https://res.cloudinary.com/human-to-human/image/upload/c_scale,f_auto,q_auto,w_370/v1501702335/technical_writer_thumb.jpg",
+          "date": "2018-01-18"
+        },
+        "title": "Начало работы с next-blog-firestore",
+        "changed": 1516278956458,
+        "text": "\n```marksy\n<Image \n  previewSrc=\"http://res.cloudinary.com/human-to-human/image/upload/c_scale,q_auto:eco,w_80/v1501702335/technical_writer_cover.jpg\"\n  src=\"https://res.cloudinary.com/human-to-human/image/upload/c_scale,f_auto,q_auto,w_752/v1501702335/technical_writer_cover.jpg\" \n  width={752} \n  height={341}\n  lazy={false}\n/>\n```\n\n***\n\nЭтот блог сделан с помощью Next.js для server-side рендеринга и Firebase Firestore & Auth API для хранения контента. Создавайте и редактируйте свой контент в удобном встроенном редакторе, сделанном с помощью React, Mobx State Tree и Styled Components.\n\n\n## Используемые технологии:\n\n  * [React](https://github.com/facebook/react)\n  * [Next.js](https://github.com/zeit/next.js)\n  * [Firebase Firestore & Auth](https://firebase.google.com/)\n  * [Styled-Components](https://github.com/styled-components/styled-components)\n  * [Mobx-State-Tree](https://github.com/mobxjs/mobx-state-tree)\n  * [Ant Design](https://github.com/ant-design/ant-design)\n  * [Marksy](https://github.com/storybooks/marksy)\n  * [ESLint](https://github.com/eslint/eslint)\n  * [Prettier](https://github.com/prettier/prettier)\n  * [Webpack](https://github.com/webpack/webpack)\n  * [Husky](https://github.com/typicode/husky) & [Lint-Staged](https://github.com/okonet/lint-staged)\n"
+      },
+      "changed": 1516278956458,
+      "id": "4tsbJgXQyOLW3l4LFZEC",
+      "draft": {
+        "changed": 1516278956458,
+        "text": "\n```marksy\n<Image \n  previewSrc=\"http://res.cloudinary.com/human-to-human/image/upload/c_scale,q_auto:eco,w_80/v1501702335/technical_writer_cover.jpg\"\n  src=\"https://res.cloudinary.com/human-to-human/image/upload/c_scale,f_auto,q_auto,w_752/v1501702335/technical_writer_cover.jpg\" \n  width={752} \n  height={341}\n  lazy={false}\n/>\n```\n\n***\n\nЭтот блог сделан с помощью Next.js для server-side рендеринга и Firebase Firestore & Auth API для хранения контента. Создавайте и редактируйте свой контент в удобном встроенном редакторе, сделанном с помощью React, Mobx State Tree и Styled Components.\n\n\n## Используемые технологии:\n\n  * [React](https://github.com/facebook/react)\n  * [Next.js](https://github.com/zeit/next.js)\n  * [Firebase Firestore & Auth](https://firebase.google.com/)\n  * [Styled-Components](https://github.com/styled-components/styled-components)\n  * [Mobx-State-Tree](https://github.com/mobxjs/mobx-state-tree)\n  * [Ant Design](https://github.com/ant-design/ant-design)\n  * [Marksy](https://github.com/storybooks/marksy)\n  * [ESLint](https://github.com/eslint/eslint)\n  * [Prettier](https://github.com/prettier/prettier)\n  * [Webpack](https://github.com/webpack/webpack)\n  * [Husky](https://github.com/typicode/husky) & [Lint-Staged](https://github.com/okonet/lint-staged)\n",
+        "meta": {
+          "category": "tutorials",
+          "tags": [],
+          "thumbText": "Настройка Firebase и первоначальные шаги для полноценной работы с блогом.",
+          "language": "ru",
+          "hasTranslation": true,
+          "featured": false,
+          "author": "john",
+          "url": "/posts/ru/2018/getting-started",
+          "ogImage": "https://res.cloudinary.com/human-to-human/image/upload/c_scale,f_auto,q_auto,w_370/v1501702335/technical_writer_thumb.jpg",
+          "thumbImage": "https://res.cloudinary.com/human-to-human/image/upload/c_scale,f_auto,q_auto,w_370/v1501702335/technical_writer_thumb.jpg",
+          "date": "2018-01-18"
+        },
+        "title": "Начало работы с next-blog-firestore"
+      },
+      "status": "published"
+    },
+    {
+      "id": "98oqiBRQbuHTeRRHCHr5",
+      "draft": {
+        "changed": 1516278496975,
+        "text": "\n```marksy\n<Image \n  previewSrc=\"http://res.cloudinary.com/human-to-human/image/upload/c_scale,q_auto:eco,w_80/v1501702335/technical_writer_cover.jpg\"\n  src=\"https://res.cloudinary.com/human-to-human/image/upload/c_scale,f_auto,q_auto,w_752/v1501702335/technical_writer_cover.jpg\" \n  width={752} \n  height={341}\n  lazy={false}\n/>\n```\n\n***\n\n[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)\n[![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)\n\nThis blog uses Next.js for SSR & Firebase Firestore API for storing and fetching data. Create and edit your content in simple custom content management\nsystem built with React, Mobx State Tree and Styled Components.\n\nClone this repo and use it as starting point to create your own fancy blog.\n\n## Technology stack:\n\n  * [React](https://github.com/facebook/react)\n  * [Next.js](https://github.com/zeit/next.js)\n  * [Firebase Firestore & Auth](https://firebase.google.com/)\n  * [Styled-Components](https://github.com/styled-components/styled-components)\n  * [Mobx-State-Tree](https://github.com/mobxjs/mobx-state-tree)\n  * [Ant Design](https://github.com/ant-design/ant-design)\n  * [Marksy](https://github.com/storybooks/marksy)\n  * [ESLint](https://github.com/eslint/eslint)\n  * [Prettier](https://github.com/prettier/prettier)\n  * [Webpack](https://github.com/webpack/webpack)\n  * [Husky](https://github.com/typicode/husky) & [Lint-Staged](https://github.com/okonet/lint-staged)\n\n## What you get:\n\n  * Posts feed\n  * Featured posts\n  * Posts by tags and category\n  * Multi language support\n  * Multi author support\n  * Markdown with ability to use custom React components\n  * Simple and convenient CMS inspired by Ghost\n  * CMS is protected by Firebase Auth\n  * Quick and SEO-friendly responses with SSR\n  * Good results in Lighthouse\n\n## Getting started\n\n#### Step 1. Create [Firebase account](https://console.firebase.google.com)\n\n\n```marksy\n<Image\n  position=\"fullscreen\"\n  src=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/create-firebase-project.png\"\n  zoomSrc=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/create-firebase-project.png\"\n  width={1044}\n  height={984}\n  lazy={true}\n/>\n```\n\n#### Step 2. Setup Authentication Method\n \n  * Click **Set up sign-in method** on Authentication section.\n  * Enable **just** Google authentication provider.\n  * Add your domain (if you have one) to **Authorized domains**. \n  \n\t```marksy\n<Image\n  position=\"right\"\n  src=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/setup-authentication.png\"\n  zoomSrc=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/setup-authentication.png\"\n  width={1340}\n  height={572}\n  lazy={true}\n/>\n```\n\n \n#### Step 3. Create Firestore database\n\n* Go to **Database** section and create Firestore instance.\n\n*Firestore is still in beta, but it doesn't make it less awesome.*\n \n#### Step 4. Database configuration.\n \n* Go to **Rules** section in your database and paste configuration from [.firebase-rules](./.firebase-rules) in project root.\n* Publish new rules.\n \n#### Step 5. Set up Firebase secret keys for our app.\n\n* Create **`.env`** at the root of the project. Do not commit this file. It is personal data that should not be available for everyone.\n* Go to **Project settings** in Firebase console (click on the gear icon next to **Project Overview**). \n* Copy data from this page to **`.env`** in the following format:\n \n ```bash\n F_PROJECT_ID=<your Project ID>\n F_AUTH_DOMAIN=<your Project ID>.firebaseapp.com\n F_API_KEY=<your Web API Key>\n ```\n\n#### Step 6. Set up Firebase Admin SDK key for importing/exporting data from database.\n\nIn order to be able to initialize database with initial seed we need to generate private Firebase Admin service key.\n\n* Go to **Project Settings** > **Service Accounts** and click **Generate new private key** button.\n* Save downloaded file as **`firebase-service-key.json`** at project root. \n** Do not commit this file. It's added to `.gitignore` by default.\n\n#### Step 7. Initialize database with initial data.\n\nWe almost finished. Let's initialize our database with initial data.\n\n```bash\nyarn\nyarn run seed\n```\n\n#### Step 8. Setup database indexes.\n\nWe need manually setup indexes in our Firestore database to be able to make REST requests to our Firebase.\n\n* Go to **Database** > **Indexes** and create the following index.\n\n```marksy\n<Image\n  position=\"fullscreen\"\n  src=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/create-indexes.png\"\n  zoomSrc=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/create-indexes.png\"\n  width={1376}\n  height={732}\n  lazy={true}\n/>\n```\n\n#### Step 9. Run blog locally.\n\nWe're ready to launch our blog locally.\n\n```bash\nyarn start\n```\n\nBlog is up and running on [http://localhost:3000](http://localhost:3000).\n\n#### Step 10. Sign in to admin part.\n\nWait.. But what's about CMS part?\n\n* Go to [http://localhost:3000/admin](http://localhost:3000/admin) and click on **\"Click to start writing\"**.\n* Sign-in with your Google Account in popup window.\n* Go to [Firebase Console] and add author rights to account you just signed in with.\n  * Copy **User UID** in **Authentication** section.\n  * Create `authors` collection in **Database**\n  * Create a record in `authors` collection, where `documentId` is UID of the user and `name` is `id` of user in `config.js` file.\n\n\n```marksy\n<Image\n  position=\"fullscreen\"\n  src=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/map-author.png\"\n  zoomSrc=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/map-author.png\"\n  width={1370}\n  height={826}\n  lazy={true}\n/>\n```\n\n#### Step 11. Ready to go!\n\n* Go to [http://localhost:3000/admin](http://localhost:3000/admin)\n* Create new post or edit existing and publish changes.\n\n",
+        "meta": {
+          "thumbText": "Let's setup Firebase account and start writing actual content.",
+          "language": "en",
+          "hasTranslation": true,
+          "featured": false,
+          "author": "john",
+          "url": "/posts/2018/getting-started",
           "ogImage": "https://res.cloudinary.com/human-to-human/image/upload/c_scale,f_auto,q_auto,w_370/v1501702335/technical_writer_thumb.jpg",
           "thumbImage": "https://res.cloudinary.com/human-to-human/image/upload/c_scale,f_auto,q_auto,w_370/v1501702335/technical_writer_thumb.jpg",
           "date": "2018-01-18",
           "category": "tutorials",
           "tags": []
         },
-        "title": "How to write your first post?"
+        "title": "Getting started with next-blog-firestore"
       },
       "status": "published",
       "published": {
         "meta": {
-          "hasTranslation": false,
+          "thumbText": "Let's setup Firebase account and start writing actual content.",
+          "language": "en",
+          "hasTranslation": true,
           "featured": false,
           "author": "john",
-          "url": "/posts/2018/how-to-write-first-post",
+          "url": "/posts/2018/getting-started",
           "ogImage": "https://res.cloudinary.com/human-to-human/image/upload/c_scale,f_auto,q_auto,w_370/v1501702335/technical_writer_thumb.jpg",
           "thumbImage": "https://res.cloudinary.com/human-to-human/image/upload/c_scale,f_auto,q_auto,w_370/v1501702335/technical_writer_thumb.jpg",
           "date": "2018-01-18",
           "category": "tutorials",
-          "tags": [],
-          "thumbText": "If you are a humanist, you probably do not consider IT companies as a future place of work. I did not consider as well until the moment I moved to an only-IT-companies city. Now I am sure that IT companies is one of the best places for humanist for many reasons.",
-          "language": "en"
+          "tags": []
         },
-        "title": "How to write your first post?",
-        "changed": 1516275847536,
-        "text": "\n```marksy\n<Image \n  previewSrc=\"http://res.cloudinary.com/human-to-human/image/upload/c_scale,q_auto:eco,w_80/v1501702335/technical_writer_cover.jpg\"\n  src=\"https://res.cloudinary.com/human-to-human/image/upload/c_scale,f_auto,q_auto,w_752/v1501702335/technical_writer_cover.jpg\" \n  width={752} \n  height={341}\n  lazy={false}\n/>\n```\n\n***\n\nMost of the critical decisions I've made in my life are not obvious for some people. I know not everyone in my hometown understands why I moved to Poland. The things are getting even worse when it comes to my new profession. Why would a graduate of Philological faculty become a technical writer? The reason for this confusion is a lack of information + stereotypes that people might have. \n\n```marksy\n<Blockquote>\nIf you are humanist, you probably do not consider IT companies as a future place of work.</Blockquote>\n```\n\nIf you are a humanist, you probably do not consider IT companies as a future place of work. I did not consider as well until the moment I moved to an only-IT-companies city. I went to the interview just to see the office of a well-known company, not to get the job - that is how little I consider my chances are. But later I found out that among 10 the writers in my team 7 are linguists/philologist/ex-teachers of English as the main requirement is English proficiency, not deep technical knowledge.\n \nWhat do the tech writers do? The main goal is to gather the information from the technicians, translate it into a human language and write it according to a style guide. Here some complications appear: how can I write about something I don't understand? - the humanist might ask. The answer is that every person can understand everything if tries hard, at least to certain extent… Writers do not need to develop a product, but just understand how it works. \n \nSome other things I can do during the day: review the other documents, send emails asking to send info/review/approvals documents, test the documents, restructure existing content, create presentations about my team/our improvements, attend a different kind of meetings. \n \nI enjoy creating presentations, I like to structure all the mess I get from the developers and make the text easy to understand. I also like to review the other texts. \n\n***\n \nIf the profession becomes more well-known I am sure that many humanists will choose it. What are the advantages and disadvantages of the job?\n \nTo work in IT is an advantage itself. Here are some things I enjoy most of all:\n \n* One of the best things is communication between the team members and the managers. I have one-on-one meeting with my manager every month where I can discuss my worries, problems, ideas, career goals. It is like a free psychiatrist session but with good consequences for your career. Also, managers never control the time you spend at work and do not really care how you spend your day as long as your tasks are done.\n\n* Tech writer is a job with minimum stress. Deadlines are blurring, no one pushes you and almost never make you work after 6 or on the weekends. If you've made a mistake, managers will gently explain to you how to fix it. \n\n* Every day you learn something new and there's a great field to learn even more if you are ready. If one year ago someone would tell me I will be programming, I would laugh in their face. As today I do not think it is as hard as I imaged, it seems logical career development for me.\n\n* The work brings satisfaction, especially if you work hard. You see the results, you always get feedback, someone cares about your career which in the end of the day makes you feel happy.\n\n* People in IT are very normal. It's also one of the drawbacks but the good side is that they are calm, nice and friendly.\n\n* You can work remotely which gives an opportunity to travel.\n\n* For girls, it's fun to be surrounded by the boys. For me, it means no judgment of my clothes and make up extra 8 hours a day.\n\n* There is no struggle with: does anyone need it? Do I do something worth doing? I mean, there can be but less than in many other jobs. It is really important for me to know that people need my writing. For the sake of creative struggle, I have this blog :D\n\n* And the last but not least is the salary. Among all the writers (except the one who wrote best sellers) tech writers get the best salary and perks. This point is for all the people who told me many times that philologists cannot make money (and can only work in McDonald's).\n \nI did not find many disadvantages but I am not the person who usually notices a lot of them. Some obvious:\n\n* Lack of communication. For me, it is a great drawback as communication is one of my strongest skill that I want to develop. I am the only tech writer in the office and I know it is a common case for many companies. All the other tech writers in my team work in India and sometimes I feel lonely and isolated. \nAlso, this job will not suit the person who cannot work by her or himself for many hours. If one day I decide to switch career, lack of communication will be the first reason.\n\n* The product can be so complicated that no one would be able to explain you the whole thing. I am constantly working on increasing my knowledge but feel like I will never be able to understand it one hundred percent. \n    \nTo sum up, the positive sides overcome negative ones. Half of the year had passed since I've started and this story is to be continued...\n"
+        "title": "Getting started with next-blog-firestore",
+        "changed": 1516278496975,
+        "text": "\n```marksy\n<Image \n  previewSrc=\"http://res.cloudinary.com/human-to-human/image/upload/c_scale,q_auto:eco,w_80/v1501702335/technical_writer_cover.jpg\"\n  src=\"https://res.cloudinary.com/human-to-human/image/upload/c_scale,f_auto,q_auto,w_752/v1501702335/technical_writer_cover.jpg\" \n  width={752} \n  height={341}\n  lazy={false}\n/>\n```\n\n***\n\n[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)\n[![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)\n\nThis blog uses Next.js for SSR & Firebase Firestore API for storing and fetching data. Create and edit your content in simple custom content management\nsystem built with React, Mobx State Tree and Styled Components.\n\nClone this repo and use it as starting point to create your own fancy blog.\n\n## Technology stack:\n\n  * [React](https://github.com/facebook/react)\n  * [Next.js](https://github.com/zeit/next.js)\n  * [Firebase Firestore & Auth](https://firebase.google.com/)\n  * [Styled-Components](https://github.com/styled-components/styled-components)\n  * [Mobx-State-Tree](https://github.com/mobxjs/mobx-state-tree)\n  * [Ant Design](https://github.com/ant-design/ant-design)\n  * [Marksy](https://github.com/storybooks/marksy)\n  * [ESLint](https://github.com/eslint/eslint)\n  * [Prettier](https://github.com/prettier/prettier)\n  * [Webpack](https://github.com/webpack/webpack)\n  * [Husky](https://github.com/typicode/husky) & [Lint-Staged](https://github.com/okonet/lint-staged)\n\n## What you get:\n\n  * Posts feed\n  * Featured posts\n  * Posts by tags and category\n  * Multi language support\n  * Multi author support\n  * Markdown with ability to use custom React components\n  * Simple and convenient CMS inspired by Ghost\n  * CMS is protected by Firebase Auth\n  * Quick and SEO-friendly responses with SSR\n  * Good results in Lighthouse\n\n## Getting started\n\n#### Step 1. Create [Firebase account](https://console.firebase.google.com)\n\n\n```marksy\n<Image\n  position=\"fullscreen\"\n  src=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/create-firebase-project.png\"\n  zoomSrc=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/create-firebase-project.png\"\n  width={1044}\n  height={984}\n  lazy={true}\n/>\n```\n\n#### Step 2. Setup Authentication Method\n \n  * Click **Set up sign-in method** on Authentication section.\n  * Enable **just** Google authentication provider.\n  * Add your domain (if you have one) to **Authorized domains**. \n  \n\t```marksy\n<Image\n  position=\"right\"\n  src=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/setup-authentication.png\"\n  zoomSrc=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/setup-authentication.png\"\n  width={1340}\n  height={572}\n  lazy={true}\n/>\n```\n\n \n#### Step 3. Create Firestore database\n\n* Go to **Database** section and create Firestore instance.\n\n*Firestore is still in beta, but it doesn't make it less awesome.*\n \n#### Step 4. Database configuration.\n \n* Go to **Rules** section in your database and paste configuration from [.firebase-rules](./.firebase-rules) in project root.\n* Publish new rules.\n \n#### Step 5. Set up Firebase secret keys for our app.\n\n* Create **`.env`** at the root of the project. Do not commit this file. It is personal data that should not be available for everyone.\n* Go to **Project settings** in Firebase console (click on the gear icon next to **Project Overview**). \n* Copy data from this page to **`.env`** in the following format:\n \n ```bash\n F_PROJECT_ID=<your Project ID>\n F_AUTH_DOMAIN=<your Project ID>.firebaseapp.com\n F_API_KEY=<your Web API Key>\n ```\n\n#### Step 6. Set up Firebase Admin SDK key for importing/exporting data from database.\n\nIn order to be able to initialize database with initial seed we need to generate private Firebase Admin service key.\n\n* Go to **Project Settings** > **Service Accounts** and click **Generate new private key** button.\n* Save downloaded file as **`firebase-service-key.json`** at project root. \n** Do not commit this file. It's added to `.gitignore` by default.\n\n#### Step 7. Initialize database with initial data.\n\nWe almost finished. Let's initialize our database with initial data.\n\n```bash\nyarn\nyarn run seed\n```\n\n#### Step 8. Setup database indexes.\n\nWe need manually setup indexes in our Firestore database to be able to make REST requests to our Firebase.\n\n* Go to **Database** > **Indexes** and create the following index.\n\n```marksy\n<Image\n  position=\"fullscreen\"\n  src=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/create-indexes.png\"\n  zoomSrc=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/create-indexes.png\"\n  width={1376}\n  height={732}\n  lazy={true}\n/>\n```\n\n#### Step 9. Run blog locally.\n\nWe're ready to launch our blog locally.\n\n```bash\nyarn start\n```\n\nBlog is up and running on [http://localhost:3000](http://localhost:3000).\n\n#### Step 10. Sign in to admin part.\n\nWait.. But what's about CMS part?\n\n* Go to [http://localhost:3000/admin](http://localhost:3000/admin) and click on **\"Click to start writing\"**.\n* Sign-in with your Google Account in popup window.\n* Go to [Firebase Console] and add author rights to account you just signed in with.\n  * Copy **User UID** in **Authentication** section.\n  * Create `authors` collection in **Database**\n  * Create a record in `authors` collection, where `documentId` is UID of the user and `name` is `id` of user in `config.js` file.\n\n\n```marksy\n<Image\n  position=\"fullscreen\"\n  src=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/map-author.png\"\n  zoomSrc=\"https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/map-author.png\"\n  width={1370}\n  height={826}\n  lazy={true}\n/>\n```\n\n#### Step 11. Ready to go!\n\n* Go to [http://localhost:3000/admin](http://localhost:3000/admin)\n* Create new post or edit existing and publish changes.\n\n"
       },
-      "changed": 1516275847536,
-      "id": "98oqiBRQbuHTeRRHCHr5"
+      "changed": 1516278496975
+    },
+    {
+      "published": {
+        "meta": {
+          "date": "2018-01-14",
+          "category": "tutorials",
+          "tags": [
+            "next.js",
+            "tutorials",
+            "video"
+          ],
+          "thumbText": " Next.js: Universal React Made Easy and Simple - React Conf 2017",
+          "language": "en",
+          "hasTranslation": false,
+          "featured": false,
+          "author": "john",
+          "url": "/posts/2018/about-next-js",
+          "ogImage": "https://i.ytimg.com/vi/Ar9R-CX217o/maxresdefault.jpg",
+          "thumbImage": "https://i.ytimg.com/vi/Ar9R-CX217o/maxresdefault.jpg"
+        },
+        "title": "About Next.js",
+        "changed": 1516276555552,
+        "text": "```marksy\n<Player url=\"https://www.youtube.com/watch?v=evaMpdSiZKk\" controls />\n```\n"
+      },
+      "changed": 1516276555552,
+      "id": "BlGqMYfiRWDJG6ZKaEuW",
+      "draft": {
+        "meta": {
+          "date": "2018-01-14",
+          "category": "tutorials",
+          "tags": [
+            "next.js",
+            "tutorials",
+            "video"
+          ],
+          "thumbText": " Next.js: Universal React Made Easy and Simple - React Conf 2017",
+          "language": "en",
+          "hasTranslation": false,
+          "featured": false,
+          "author": "john",
+          "url": "/posts/2018/about-next-js",
+          "ogImage": "https://i.ytimg.com/vi/Ar9R-CX217o/maxresdefault.jpg",
+          "thumbImage": "https://i.ytimg.com/vi/Ar9R-CX217o/maxresdefault.jpg"
+        },
+        "title": "About Next.js",
+        "changed": 1516276555552,
+        "text": "```marksy\n<Player url=\"https://www.youtube.com/watch?v=evaMpdSiZKk\" controls />\n```\n"
+      },
+      "status": "published"
     },
     {
       "draft": {
+        "text": "\n```marksy\n<Player url=\"https://www.youtube.com/watch?v=W3xIOQu0h1w\" controls />\n```\n",
+        "meta": {
+          "category": "tutorials",
+          "tags": [
+            "video",
+            "firestore",
+            "firebase"
+          ],
+          "thumbText": "Firebase just announced the beta release of Cloud Firestore -- a fully-managed NoSQL document database for mobile and web app development. It's designed to easily store and sync app data at global scale, and it's now available in beta. ",
+          "language": "en",
+          "hasTranslation": false,
+          "featured": false,
+          "author": "john",
+          "url": "/posts/2017/introducing-cloud-firestore",
+          "ogImage": "https://i.ytimg.com/vi/W3xIOQu0h1w/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDoNNOB4EaVzYGm_2wB2VEm8dsl_Q",
+          "thumbImage": "https://i.ytimg.com/vi/W3xIOQu0h1w/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDoNNOB4EaVzYGm_2wB2VEm8dsl_Q",
+          "date": "2018-01-17"
+        },
+        "title": "Introducing Cloud Firestore",
+        "changed": 1516275826437
+      },
+      "status": "published",
+      "published": {
         "changed": 1516275826437,
         "text": "\n```marksy\n<Player url=\"https://www.youtube.com/watch?v=W3xIOQu0h1w\" controls />\n```\n",
         "meta": {
@@ -64,38 +177,15 @@
         },
         "title": "Introducing Cloud Firestore"
       },
-      "status": "published",
-      "published": {
-        "meta": {
-          "thumbText": "Firebase just announced the beta release of Cloud Firestore -- a fully-managed NoSQL document database for mobile and web app development. It's designed to easily store and sync app data at global scale, and it's now available in beta. ",
-          "language": "en",
-          "hasTranslation": false,
-          "featured": false,
-          "author": "john",
-          "url": "/posts/2017/introducing-cloud-firestore",
-          "ogImage": "https://i.ytimg.com/vi/W3xIOQu0h1w/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDoNNOB4EaVzYGm_2wB2VEm8dsl_Q",
-          "thumbImage": "https://i.ytimg.com/vi/W3xIOQu0h1w/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDoNNOB4EaVzYGm_2wB2VEm8dsl_Q",
-          "date": "2018-01-17",
-          "category": "tutorials",
-          "tags": [
-            "video",
-            "firestore",
-            "firebase"
-          ]
-        },
-        "title": "Introducing Cloud Firestore",
-        "changed": 1516275826437,
-        "text": "\n```marksy\n<Player url=\"https://www.youtube.com/watch?v=W3xIOQu0h1w\" controls />\n```\n"
-      },
       "changed": 1516275826437,
       "id": "tDbrGINN5idtOLxhiAZ0"
     },
     {
+      "id": "ysk0wd4RgJpNDhTdePXu",
       "draft": {
         "changed": 1516276216369,
         "text": "```marksy\n<Player url=\"https://www.youtube.com/watch?v=rwqwwn_46kA\" controls />\n```\n\nAdditional links:\n\n* [Course on Egghead](https://egghead.io/courses/manage-application-state-with-mobx-state-tree)",
         "meta": {
-          "thumbImage": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/169/full/EGH_MobxStateTree.png",
           "date": "2018-01-17",
           "category": "tutorials",
           "tags": [
@@ -108,15 +198,16 @@
           "featured": false,
           "author": "john",
           "url": "/posts/2017/about-mobx-state-tree",
-          "ogImage": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/169/full/EGH_MobxStateTree.png"
+          "ogImage": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/169/full/EGH_MobxStateTree.png",
+          "thumbImage": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/169/full/EGH_MobxStateTree.png"
         },
         "title": "About Mobx State Tree"
       },
       "status": "published",
       "published": {
-        "changed": 1516276216369,
-        "text": "```marksy\n<Player url=\"https://www.youtube.com/watch?v=rwqwwn_46kA\" controls />\n```\n\nAdditional links:\n\n* [Course on Egghead](https://egghead.io/courses/manage-application-state-with-mobx-state-tree)",
         "meta": {
+          "thumbText": "Last years there have been great developments in state management libraries. Both Redux and MobX sprung from the React community and provide stand-alone, generic state management solutions. Both have gained big in popularity, and both have their own strengths and weaknesses. ",
+          "language": "en",
           "hasTranslation": false,
           "featured": false,
           "author": "john",
@@ -128,14 +219,13 @@
           "tags": [
             "mobx",
             "tutorials"
-          ],
-          "thumbText": "Last years there have been great developments in state management libraries. Both Redux and MobX sprung from the React community and provide stand-alone, generic state management solutions. Both have gained big in popularity, and both have their own strengths and weaknesses. ",
-          "language": "en"
+          ]
         },
-        "title": "About Mobx State Tree"
+        "title": "About Mobx State Tree",
+        "changed": 1516276216369,
+        "text": "```marksy\n<Player url=\"https://www.youtube.com/watch?v=rwqwwn_46kA\" controls />\n```\n\nAdditional links:\n\n* [Course on Egghead](https://egghead.io/courses/manage-application-state-with-mobx-state-tree)"
       },
-      "changed": 1516276216369,
-      "id": "ysk0wd4RgJpNDhTdePXu"
+      "changed": 1516276216369
     }
   ],
   "categories": [
