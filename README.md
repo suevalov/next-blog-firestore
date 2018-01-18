@@ -10,20 +10,17 @@ Clone this repo and use it as starting point to create your own fancy blog.
 
 ## Technology stack:
 
-  * React
-  * Next.js
-  * Now
-  * Firebase Firestore
-  * Firebase Auth
-  * Styled-Components
-  * Mobx State Tree
-  * Ant Design
-  * Marksy
-  * Babel
-  * ESLint
-  * Prettier
-  * Webpacks
-  * Husky & Lint-Staged
+  * [React](https://github.com/facebook/react)
+  * [Next.js](https://github.com/zeit/next.js)
+  * [Firebase Firestore & Auth](https://firebase.google.com/)
+  * [Styled-Components](https://github.com/styled-components/styled-components)
+  * [Mobx-State-Tree](https://github.com/mobxjs/mobx-state-tree)
+  * [Ant Design](https://github.com/ant-design/ant-design)
+  * [Marksy](https://github.com/storybooks/marksy)
+  * [ESLint](https://github.com/eslint/eslint)
+  * [Prettier](https://github.com/prettier/prettier)
+  * [Webpack](https://github.com/webpack/webpack)
+  * [Husky](https://github.com/typicode/husky) & [Lint-Staged](https://github.com/okonet/lint-staged)
 
 ## What you get:
 
