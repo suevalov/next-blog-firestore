@@ -1,0 +1,13 @@
+{
+  "posts": [],
+  "categories": [
+    {
+      "id": "first",
+      "title": "First category"
+    },
+    {
+      "id": "second",
+      "title": "Second category"
+    }
+  ]
+}

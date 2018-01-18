@@ -1,0 +1,21 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": false
+      }
+    ],
+    "root-import",
+    "transform-decorators-legacy",
+    [
+      "styled-components",
+      {
+        "ssr": true
+      }
+    ],
+    "transform-flow-strip-types"
+  ]
+}

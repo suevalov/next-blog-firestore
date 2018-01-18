@@ -1,0 +1,28 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "react-app",
+        "prettier",
+        "prettier/flowtype",
+        "prettier/react"
+    ],
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "plugins": [
+        "flowtype",
+        "react",
+        "prettier",
+        "import"
+    ],
+    "rules": {
+      "jsx-a11y/href-no-hash": 0
+    }
+}

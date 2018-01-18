@@ -1,0 +1,1 @@
+module.exports = ["posts", "categories"];

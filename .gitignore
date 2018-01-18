@@ -1,0 +1,12 @@
+node_modules
+.next
+.idea/
+.DS_Store
+out
+public
+*.log
+.vscode/
+.envs/
+.backups/
+.env
+firebase-service-key.json
