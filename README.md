@@ -39,8 +39,8 @@ Clone this repo and use it as starting point to create your own fancy blog.
 
 **Step 1** Create [Firebase account](https://console.firebase.google.com)
 
-<p align='center'>
-  <img src='./docs/create-firebase-project' width='600' alt='Create Firebase account'>
+<p align='center'>  
+  <img src='https://raw.githubusercontent.com/suevalov/next-blog-firestore/master/docs/create-firebase-project.png' width='300' alt='Create Firebase account'>
 </p>
 
 **Step 2** Setup Authentication 
