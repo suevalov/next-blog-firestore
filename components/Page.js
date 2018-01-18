@@ -4,7 +4,6 @@ import Header from "./Header/index";
 import MobileMenu from "./MobileMenu";
 import Footer from "./Footer/index";
 import ScrollToTop from "./ScrollToTop";
-import Tracking from "./Tracking";
 import Config from "~/utils/config";
 import theme from "~/utils/theme";
 import fonts from "~/utils/fonts";
@@ -55,7 +54,6 @@ class Page extends React.Component {
           </Main>
           <ScrollToTop showUnder={150} />
           <Footer copyright={Config.copyright} />
-          <Tracking />
         </div>
       </ThemeProvider>
     );
