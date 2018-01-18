@@ -54,10 +54,6 @@ export default class MyDocument extends Document {
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
           <meta
-            name="google-site-verification"
-            content="3uW7IYnzmx81L71tyEGIcQkV9F91-vFC76_nCviGIg4"
-          />
-          <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0, user-scalable=yes"
           />
